@@ -1,0 +1,48 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 200;
+    margin: 0;
+}
+
+p {
+    font-weight: 300;
+    color: lightgrey;
+    margin: 0;
+}
+
+#logo-wrapper {
+    margin: auto;
+    width: 340px;
+    padding: 16px;
+}
+
+#logo {
+    margin: auto;
+    width: 260px;
+    height: 160px;
+    background-image: url("images/logo_neon_on.png");
+    animation-name: logo-intro;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes logo-intro {
+    0% { background-image: url("images/logo_neon_off.png"); }
+    50% { background-image: url("images/logo_neon_off.png"); }
+    52% { background-image: url("images/logo_neon_on.png"); }
+    54% { background-image: url("images/logo_neon_off.png"); }
+    56% { background-image: url("images/logo_neon_on.png"); }
+    58% { background-image: url("images/logo_neon_off.png"); }
+    60% { background-image: url("images/logo_neon_on.png"); }
+    88% { background-image: url("images/logo_neon_on.png"); }
+    90% { background-image: url("images/logo_neon_off.png"); }
+    92% { background-image: url("images/logo_neon_on.png"); }
+}
