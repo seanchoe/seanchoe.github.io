@@ -29,6 +29,7 @@ p {
     width: 260px;
     height: 160px;
     background-image: url("images/logo_neon_on.png");
+    background-size: 260px 160px;
     animation-name: logo-intro;
     animation-duration: 2s;
     animation-iteration-count: 1;
