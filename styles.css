@@ -39,7 +39,7 @@ a {
     padding: 16px;
 }
 
-#logo_and_title_wrapper {
+#logo-and-title-wrapper {
     width: fit-content;
     margin: auto;
 }
@@ -58,7 +58,6 @@ a {
 ul {
     padding: 0;
     width: fit-content;
-    margin: 64px auto;
 }
 
 li {
@@ -72,8 +71,9 @@ li p {
     margin-left: 0;
 }
 
-#list-wrapper {
+ul#list-wrapper {
     width: 340px;
+    margin: 64px auto;
 }
 
 .icon {
@@ -94,6 +94,53 @@ li p {
 .icon-text {
     overflow: auto;
     padding-left: 16px;
+}
+
+ul#social-wrapper {
+    margin: 0 auto;
+}
+
+ul#social-wrapper > li {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.social-icon {
+    width: 28px;
+    height: 28px;
+    background-size: 28px;
+}
+
+.social-icon#twitter {
+    background-image: url("./images/icon_twitter_off.png");
+}
+
+.social-icon#twitter:hover {
+    background-image: url("./images/icon_twitter_on.png");
+}
+
+.social-icon#instagram {
+    background-image: url("./images/icon_ig_off.png");
+}
+
+.social-icon#instagram:hover {
+    background-image: url("./images/icon_ig_on.png");
+}
+
+.social-icon#linkedin {
+    background-image: url("./images/icon_linkedin_off.png");
+}
+
+.social-icon#linkedin:hover {
+    background-image: url("./images/icon_linkedin_on.png");
+}
+
+.social-icon#blog {
+    background-image: url("./images/icon_blog_off.png");
+}
+
+.social-icon#blog:hover {
+    background-image: url("./images/icon_blog_on.png");
 }
 
 @keyframes logo-intro {
