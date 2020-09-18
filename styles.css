@@ -49,7 +49,7 @@ a {
     width: 260px;
     height: 160px;
     background-image: url("images/logo_neon_on.png");
-    background-size: 260px 160px;
+    background-size: 100%;
     animation-name: logo-intro;
     animation-duration: 2s;
     animation-iteration-count: 1;
@@ -79,7 +79,7 @@ ul#list-wrapper {
 .icon {
     width: 48px;
     height: 48px;
-    background-size: 48px;
+    background-size: 100%;
     float: left;
 }
 
@@ -108,7 +108,7 @@ ul#social-wrapper > li {
 .social-icon {
     width: 28px;
     height: 28px;
-    background-size: 28px;
+    background-size: 100%;
 }
 
 .social-icon#twitter {
@@ -154,4 +154,69 @@ ul#social-wrapper > li {
     88% { background-image: url("images/logo_neon_on.png"); }
     90% { background-image: url("images/logo_neon_off.png"); }
     92% { background-image: url("images/logo_neon_on.png"); }
+}
+
+/* Tagmark */
+
+#tagmark-wrapper {
+    width: fit-content;
+    margin: auto;
+}
+
+#tagmark-wrapper > .text-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#tagmark-wrapper > .text-wrapper > h1 {
+    font-size: 68px;
+    padding-left: 100px;
+    background-image: url("./images/tagmark_logo.png");
+    background-repeat: no-repeat;
+    background-size: 96px;
+}
+
+#tagmark-wrapper > .text-wrapper > p {
+    margin: 16px;
+    padding-left: 16px;
+}
+
+#tagmark-wrapper > .screenshots {
+    display: inline-block;
+    vertical-align: middle;
+    width: 669px;
+    height: 765px;
+    background-size: 100%;
+    background-image: url("./images/tagmark_screenshots.png");
+}
+
+#seanchoe-logo {
+    display: block;
+    background-image: url("./images/seanchoe_logo.png");
+    background-size: 68px;
+    width: 68px;
+    height: 68px;
+    float: left;
+}
+
+#watch-video {
+    margin: 32px auto;
+    display: block;
+    width: fit-content;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 8px 24px 0 24px;
+    height: 32px;
+    border-style: solid;
+    border-radius: 24px;
+    border-width: 4px;
+}
+
+#app-store {
+    display: block;
+    margin: 32px auto;
+    width: 156px;
+    height: 52px;
+    background-size: 100%;
+    background-image: url("./images/app_store.png");
 }
