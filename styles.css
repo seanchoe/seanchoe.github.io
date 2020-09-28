@@ -220,3 +220,11 @@ ul#social-wrapper > li {
     background-size: 100%;
     background-image: url("./images/app_store.png");
 }
+
+.content {
+    display: block;
+    max-width: 640px;
+    padding-top: 100px;
+    line-height: 1.6;
+    text-align: left;
+}
