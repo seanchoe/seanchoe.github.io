@@ -193,7 +193,7 @@ ul#social-wrapper > li {
 #seanchoe-logo {
     display: block;
     background-image: url("./images/seanchoe_logo.png");
-    background-size: 68px;
+    background-size: 100%;
     width: 68px;
     height: 68px;
     float: left;
@@ -227,4 +227,29 @@ ul#social-wrapper > li {
     padding-top: 100px;
     line-height: 1.6;
     text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+    #wrapper {
+        max-width: 600px;
+    }
+
+    #seanchoe-logo {
+        width: 48px;
+        height: 48px;
+    }
+
+    #tagmark-wrapper > .text-wrapper > h1 {
+        font-size: 48px;
+    }
+    
+    #tagmark-wrapper > .text-wrapper > p {
+        margin: 4px;
+        padding-left: 0;
+    }
+
+    #tagmark-wrapper > .screenshots {
+        width: 320px;
+        height: 366px;
+    }
 }
