@@ -179,6 +179,7 @@ ul#social-wrapper > li {
 #tagmark-wrapper > .text-wrapper > p {
     margin: 16px;
     padding-left: 16px;
+    text-align: center;
 }
 
 #tagmark-wrapper > .screenshots {
@@ -261,7 +262,8 @@ ul#social-wrapper > li {
     }
 
     #tagmark-wrapper > .text-wrapper {
-        margin-top: 16px;
+        padding-top: 82px;
+        display: block;
     }
 
     #tagmark-wrapper > .text-wrapper > h1 {
@@ -272,7 +274,7 @@ ul#social-wrapper > li {
     }
     
     #tagmark-wrapper > .text-wrapper > p {
-        margin: 4px;
+        margin: 4px auto;
         padding-left: 0;
     }
 
