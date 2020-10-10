@@ -91,6 +91,10 @@ ul#list-wrapper {
     background-image: url("images/icon_dd.png");
 }
 
+.icon#medium {
+    background-image: url("images/icon_medium.png");
+}
+
 .icon-text {
     overflow: auto;
     padding-left: 16px;
