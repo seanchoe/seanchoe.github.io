@@ -282,4 +282,20 @@ ul#social-wrapper > li {
         width: 320px;
         height: 366px;
     }
+
+    .social-icon#twitter {
+        background-image: url("./images/icon_twitter_on.png");
+    }
+    
+    .social-icon#instagram {
+        background-image: url("./images/icon_ig_on.png");
+    }
+    
+    .social-icon#linkedin {
+        background-image: url("./images/icon_linkedin_on.png");
+    }
+    
+    .social-icon#blog {
+        background-image: url("./images/icon_blog_on.png");
+    }
 }
